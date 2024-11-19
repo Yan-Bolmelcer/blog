@@ -13,16 +13,12 @@
 - PHP 7.2
 - MySql 8.0
 - Yii 1.1
+
 ### УСТАНОВКА ФРЕЙМВОРКА 
 
-- Yii 1.1 нужно скачать с официального сайта, распаковать архив.
-- Перейдите в папку, где установлен Yii (ниже пример): 
-```bash
-cd C:\OSPanel\domains\yii\framework
-  ```
-- Создайте новый проект с помощью команды:
-  ```bash
-php yiic webapp C:\OSPanel\domains\blog.local
+- Yii 1.1 уже установлен, нужно изменить путь в файле `index.php` (пример):
+```php
+  $yii=dirname(__FILE__).'/../blog/framework/yii.php';
   ```
 
 ### СЕРВЕР
