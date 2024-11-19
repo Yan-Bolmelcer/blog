@@ -5,13 +5,14 @@
 
 *.log
 
-/runtime/
-protected/runtime/
+/runtime/*
+!/runtime/.gitkeep
+/protected/runtime/*
+!/protected/runtime/.gitkeep
+/assets/*
+!/assets/.gitkeep
 
 /config/*.local.php
-
-/vendor/
-/assets/
 
 .DS_Store
 Thumbs.db
