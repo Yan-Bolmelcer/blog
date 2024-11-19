@@ -59,4 +59,5 @@ return array(
 ### ПОЛЬЗОВАТЕЛИ ДЛЯ АВТОРИЗАЦИИ
 
 Oleg, Petr, Alena
+
 password
